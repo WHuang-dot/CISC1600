@@ -2,12 +2,15 @@
 <html lang="en">
 
 <head>
+  <!-- meta data for the viewport to achieve mobile responsive -->
+  <meta name="viewport" content="width =device-width">
   <title>My CSS Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <nav>
+    <!-- Elements for the nav bar -->
     <ul class="topnav" id="dropdownClick">
       <li><a class="active" href="#home">Home</a></li>
       <li><a href="#news">News</a></li>
@@ -19,6 +22,7 @@
     </ul>
   </nav>
 
+  <!-- Container for the first section of the page -->
   <div class="container" id="section-1-gradient">
     <div class="row">
       <div class="col-6">
@@ -26,6 +30,7 @@
           <h1 class="large">My</h1>
           <h1 class="large">Simple website</h1>
         </div>
+        <!-- Form for login (Placeholder) -->
         <form>
           <div class="leftSide-col">
             <h2>Username</h2>
@@ -56,7 +61,7 @@
             <img src="devIcon.png">
           </div>
           <label>HTML</label>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.</p>
         </div>
       </div>
       <div class="col-4">
@@ -65,7 +70,7 @@
             <img src="devIcon.png">
           </div>
           <label>CSS</label>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>JavaScript is used to control the behavior of different elements of the HTML elements by interacting with the DOM.</p>
         </div>
       </div>
       <div class="col-4">
@@ -80,7 +85,7 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <button class="learnMore">Learn More</button>
+        <a class="button" href="https://www.w3schools.com/">Learn More</a>
       </div>
     </div>
   </div>
@@ -89,7 +94,7 @@
     <div class="row">
       <div class="col-7">
         <article>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+          <p>HTML, CSS, and JS is an indispensable triad of tools for modern web development. While HTML helps you to present a webpage or web app over the internet, CSS determines how it will be displayed. JavaScript adds additional functionality over the CSS and HTML code.</p>
         </article>
       </div>
       <div class="col-5">
@@ -105,9 +110,7 @@
       <div class="col-3 mobileStack">
         <h1>Connect with us</h1>
         <ul>
-          <li>Twitter</li>
-          <li>Instagram</li>
-          <li>Tiktok</li>
+          <a href="https://twitter.com/FruitAIO?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @FruitAIO</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </ul>
       </div>
   </footer>

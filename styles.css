@@ -26,6 +26,7 @@ article p {
   padding: 20px;
 }
 
+/* Container for the top section */
 .container {
   width: 100%;
   margin: auto;
@@ -46,6 +47,7 @@ article p {
   content: "";
 }
 
+/* Distribute the column to multiple sections */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -96,6 +98,7 @@ ul.topnav li a {
   color: #666;
 }
 
+/* Color change when hovering the navbar */
 ul.topnav li a:hover {
   background-color: #0080ff;
   color: #fff;
@@ -126,13 +129,15 @@ div.box {
     0 2px 3px 0 rgba(0,0,0,.1);
 }
 
+/*Adding shadow the the img*/
 div.slopeIcon img {
   display: block;
   margin: auto;
   box-shadow: -2px/*H*/ -2px/*V*/ 20px/*B*/ 2px/*S*/ rgba(0/*Sh*/,0/*BG*/, 0/*BX*/,.15/*Op*/ ), 2px 2px 17px 2px rgba(0,0,0,1);
 }
 
-button {
+/* color and size for the learn more button */
+a.button {
   font-size: 32px;
   font-weight: 700;
   color: #fff;
@@ -183,6 +188,7 @@ input[type="text"]{
   border-radius: 7px;
 }
 
+/*CSS styling for the footer*/
 footer.footsy {
   background-color: #666;
   padding-left: 10%;
